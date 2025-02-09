@@ -5,6 +5,17 @@ import ExpenseInput from '../components/ExpenseInput';  // Default import of Exp
 import BudgetDisplay from '../components/BudgetDisplay';  // Default import of BudgetDisplay component
 import ProgressBar from '../components/ProgressBar';  // Default import of ProgressBar component
 
+
+
+
+//USE OF THE API KEYS STILL NEED TO BE ADDED AND BUGS WORKED OUT/BACKEND SHOULD BE ADDED
+// import { PLAID_CLIENT_ID, PLAID_SECRET, PLAID_ENV } from 'react-native-dotenv';
+
+// console.log(PLAID_CLIENT_ID, PLAID_SECRET, PLAID_ENV);
+
+
+
+
 // HomeScreen component - main screen of the app
 const HomeScreen: React.FC = () => {
   const [expenses, setExpenses] = useState<number[]>([]);  // Track the list of expenses
